@@ -124,3 +124,91 @@ body {
   max-width: 1480px;
   margin: 0 auto;
 }
+/*相关尺寸*/
+.mr5 {
+  margin-right: 0.05rem;
+}
+.ml5 {
+  margin-left: 0.05rem;
+}
+.mt5 {
+  margin-top: 0.05rem;
+}
+.mb5 {
+  margin-bottom: 0.05rem;
+}
+.mr10 {
+  margin-right: 0.1rem;
+}
+.ml10 {
+  margin-left: 0.1rem;
+}
+.mt10 {
+  margin-top: 0.1rem;
+}
+.mb10 {
+  margin-bottom: 0.1rem;
+}
+.mr20 {
+  margin-right: 0.2rem;
+}
+.ml20 {
+  margin-left: 0.2rem;
+}
+.mt20 {
+  margin-top: 0.2rem;
+}
+.mb20 {
+  margin-bottom: 0.2rem;
+}
+.mr30 {
+  margin-right: 0.3rem;
+}
+.ml30 {
+  margin-left: 0.3rem;
+}
+.mt30 {
+  margin-top: 0.3rem;
+}
+.mb30 {
+  margin-bottom: 0.3rem;
+}
+.font12 {
+  font-size: 0.12rem;
+}
+.font14 {
+  font-size: 0.14rem;
+}
+.font15 {
+  font-size: 0.15rem;
+}
+.font16 {
+  font-size: 0.16rem;
+}
+.block {
+  display: block;
+}
+.inline {
+  display: inline-block;
+}
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.baseline {
+  vertical-align: baseline;
+}
+.middle {
+  vertical-align: middle;
+}
+.top {
+  vertical-align: top;
+}
+.bottom {
+  vertical-align: bottom;
+}
