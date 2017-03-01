@@ -1,0 +1,239 @@
+html {
+  font-size: 100px;
+}
+body {
+  line-height: 1.4;
+  color: #333;
+  font-family: arial;
+  font-size: 12px;
+  font-size: .12rem;
+  background: white;
+}
+* {
+  box-sizing: border-box;
+}
+input,
+textarea,
+select {
+  font-size: 12px;
+  font-size: 100%;
+  font-family: arial;
+  font-family: inherit;
+}
+body,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ol,
+form,
+textarea,
+th,
+td,
+select {
+  margin: 0;
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+form {
+  margin: 0;
+}
+h4,
+h5,
+h6 {
+  font-size: .1em;
+}
+ul,
+ol {
+  padding-left: 0;
+  list-style-type: none;
+}
+/*image with no-border*/
+a img {
+  border: 0;
+}
+img {
+  border: 0;
+}
+textarea {
+  resize: none;
+  overflow: auto;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  display: block;
+  clear: both;
+}
+.before {
+  content: "";
+  display: block;
+}
+.after {
+  content: "";
+  display: block;
+}
+.lf {
+  float: left;
+}
+.rt {
+  float: right;
+}
+.tl {
+  text-align: left;
+}
+.tc {
+  text-align: center;
+}
+.tr {
+  text-algin: right;
+}
+/*overflow: hidden和white-space: nowrap都是必须的否则不会显示省略号；-o-text-overflow: ellipsis针对Opera；而宽度的设定主要是针对IE6；
+*/
+.ellipse {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+html,
+body {
+  min-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+/*相关尺寸*/
+.mr5 {
+  margin-right: 0.05rem;
+}
+.ml5 {
+  margin-left: 0.05rem;
+}
+.mt5 {
+  margin-top: 0.05rem;
+}
+.mb5 {
+  margin-bottom: 0.05rem;
+}
+.mr10 {
+  margin-right: 0.1rem;
+}
+.ml10 {
+  margin-left: 0.1rem;
+}
+.mt10 {
+  margin-top: 0.1rem;
+}
+.mb10 {
+  margin-bottom: 0.1rem;
+}
+.mr20 {
+  margin-right: 0.2rem;
+}
+.ml20 {
+  margin-left: 0.2rem;
+}
+.mt20 {
+  margin-top: 0.2rem;
+}
+.mb20 {
+  margin-bottom: 0.2rem;
+}
+.mr30 {
+  margin-right: 0.3rem;
+}
+.ml30 {
+  margin-left: 0.3rem;
+}
+.mt30 {
+  margin-top: 0.3rem;
+}
+.mb30 {
+  margin-bottom: 0.3rem;
+}
+.font12 {
+  font-size: 0.12rem;
+}
+.font14 {
+  font-size: 0.14rem;
+}
+.font15 {
+  font-size: 0.15rem;
+}
+.font16 {
+  font-size: 0.16rem;
+}
+.block {
+  display: block;
+}
+.inline {
+  display: inline-block;
+}
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.baseline {
+  vertical-align: baseline;
+}
+.middle {
+  vertical-align: middle;
+}
+.top {
+  vertical-align: top;
+}
+.bottom {
+  vertical-align: bottom;
+}
+.container {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  min-width: 1200px;
+  height: 115px;
+}
+.header > a {
+  width: 69%;
+  display: inline-block;
+}
+.header > a img:first-child {
+  margin: .1rem .4rem 0 .3rem;
+}
+.header > img {
+  margin-right: .4rem;
+}
+.nav {
+  width: 100%;
+  height: 50px;
+  background: #ccc;
+}
