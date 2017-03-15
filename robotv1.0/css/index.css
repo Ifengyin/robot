@@ -411,3 +411,28 @@ body {
   color: #efe9d1;
   text-decoration: underline;
 }
+.lend-container {
+  position: absolute;
+  right: 100px;
+  top: 20px;
+  width: 350px;
+  height: 400px;
+  z-index: 500;
+  background: #fff;
+  opacity: 0.9;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
+}
+.lend-container .lend-container-title {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  width: 100%;
+  background: #EB8932;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
+}

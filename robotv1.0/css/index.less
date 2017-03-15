@@ -140,3 +140,25 @@
   .nivo-caption {text-shadow:none; font-family: Helvetica, Arial, sans-serif;}
   .nivo-caption a {color:#efe9d1;text-decoration:underline;}
 }
+
+.lend-container{
+  position: absolute;
+  right:100px;
+  top:20px;
+  width:350px;
+  height:400px;
+  z-index: 500;
+  background:#fff;
+  opacity: 0.9;
+  .border-radius-custom (@topleft: 10px, @topright: 10px, @bottomleft: 0px, @bottomright: 0px);
+  .lend-container-title{
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    color:#fff;
+    font-size: 24px;
+    width:100%;
+    background:#EB8932;
+    .border-radius-custom (@topleft: 10px, @topright: 10px, @bottomleft: 0px, @bottomright: 0px);
+  }
+}
