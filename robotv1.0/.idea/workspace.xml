@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ef832aa-eef4-407f-8b47-3970609f7e65" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/course/index-cj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/course/index-gj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/course/index-js.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/course/index-zj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/part1-box1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/part1-info2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/title-bg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/plugs/font-awesome.min.css" afterPath="$PROJECT_DIR$/css/font-awesome.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.less" afterPath="$PROJECT_DIR$/css/base.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.less" afterPath="$PROJECT_DIR$/css/index.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -117,7 +105,7 @@
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="238">
-                  <caret line="259" column="33" lean-forward="false" selection-start-line="259" selection-start-column="33" selection-end-line="259" selection-end-column="33" />
+                  <caret line="259" column="0" lean-forward="false" selection-start-line="259" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -225,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -351,6 +338,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -482,7 +470,7 @@
       <workItem from="1489813997765" duration="11744000" />
       <workItem from="1489891817277" duration="54000" />
       <workItem from="1489892013431" duration="14760000" />
-      <workItem from="1489936817215" duration="26000" />
+      <workItem from="1489936817215" duration="694000" />
     </task>
     <task id="LOCAL-00001" summary="-v1.0.0&#10;">
       <created>1487511391000</created>
@@ -540,11 +528,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489592407128</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="-v1.0.1&#10;">
+      <created>1489936887734</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1489936887734</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108380000" />
+    <option name="totallyTimeSpent" value="109048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -557,9 +552,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21268657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21268657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -605,7 +600,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-v1.0.0&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="-v1.0.0&#10;" />
+    <MESSAGE value="-v1.0.1&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="-v1.0.1&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -832,7 +828,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="259" column="33" lean-forward="false" selection-start-line="259" selection-start-column="33" selection-end-line="259" selection-end-column="33" />
+          <caret line="259" column="0" lean-forward="false" selection-start-line="259" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
