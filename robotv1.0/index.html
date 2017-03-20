@@ -306,6 +306,37 @@
             </div>
           </div>
         </div>
+        <div class="part3_news">
+          <div class="news_part_content">
+            <div class="news_part wow bounceInDown">
+              <h3><span>动态新闻</span><a href="#" class="link">更多新闻 >></a></h3>
+              <div>
+                <p><a href="#"><span>2017-2-22</span><b></b>乐高机器人--坚强你的意志</a></p>
+                <p><a href="#"><span>2017-2-22</span><b></b>爱博特陪伴您的孩子健康成长</a></p>
+                <p><a href="#"><span>2017-2-22</span><b></b>乐高机器人--坚强你的意志</a></p>
+                <p><a href="#"><span>2017-2-22</span><b></b>乐高机器人--坚强你的意志</a></p>
+                <p><a href="#"><span>2017-2-22</span><b></b>乐高机器人--坚强你的意志</a></p>
+              </div>
+            </div>
+            <div class="news_part wow bounceInDown">
+              <h3><span>行业新闻</span><a href="#" class="link">更多新闻 >></a></h3>
+              <div>
+                <p><a href="#"><span>2017-2-22</span><b></b>乐高机器人--坚强你的意志</a></p>
+                <p><a href="#"><span>2017-2-22</span><b></b>爱博特陪伴您的孩子健康成长</a></p>
+                <p><a href="#"><span>2017-2-22</span><b></b>乐高机器人--坚强你的意志</a></p>
+                <p><a href="#"><span>2017-2-22</span><b></b>乐高机器人--坚强你的意志</a></p>
+                <p><a href="#"><span>2017-2-22</span><b></b>乐高机器人--坚强你的意志</a></p>
+              </div>
+            </div>
+            <div class="news_part wow bounceInDown">
+              <h3><span>热点新闻</span><a href="#" class="link">更多新闻 >></a></h3>
+              <div id="slider1">
+                <ul id="slider1_imgs"></ul>
+                <ul id="slider1_index"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       </div>
     <script src="js/plugs/jquery-1.11.3.js"></script>
@@ -313,6 +344,7 @@
     <script src="js/plugs/html5shiv.min.js"></script>
     <script src="js/plugs/wow.js"></script>
     <script src="js/plugs/jquery.nivo.slider.js"></script>
+    <script src="js/slider-my.js"></script>
     <script src="js/index.js"></script>
     <script>
       if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
@@ -326,6 +358,13 @@
 				$('#slider a img').css({'width':$imgWidth+'px','height':$imgHeight+'px'});
 				$('#slider').css({'width':$imgWidth+'px','height':$imgHeight+'px'});
 			}
+      $("#slider1").wyjd_banner([
+        {"i":0,"img":"images/banner/banner_01.jpg"},
+        {"i":1,"img":"images/banner/banner_02.jpg"},
+        {"i":2,"img":"images/banner/banner_03.jpg"},
+        {"i":3,"img":"images/banner/banner_04.jpg"},
+        {"i":4,"img":"images/banner/banner_05.gif"},
+      ]);
       $(function(){
         $('#slider').nivoSlider(
           {
