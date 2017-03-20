@@ -158,7 +158,7 @@
         </div>
       </div>
       <div class="container-part2">
-        <div class="part2_title wow flipInX">
+        <div class="part_title wow flipInX">
           <h3><span>I - Robot</span><span>特色课程体系</span></h3>
           <h4>因材施教，针对不同儿童定制的专属课程</h4>
           <h5>Scientific Course System,Teach students in accordance with their aptitude, tailored courses for different children</h5>
@@ -254,11 +254,57 @@
           </div>
         </div>
       </div>
-      <div class="container-part2">
-        <div class="part2_title wow flipInX">
+      <div class="container-part3">
+        <div class="part_title wow flipInX">
           <h3><span>I - Robot</span><span>新闻资讯</span></h3>
           <h4>爱博特新闻资讯，了解最新机器人教育动态</h4>
           <h5>Robot Eduaction Latest News,Learn about the latest trends in Robotics Education</h5>
+        </div>
+        <div class="part3_container">
+          <div class="news-content">
+            <div class="part3_img_content mb20">
+              <img src="images/news/news1.jpg" alt="">
+            </div>
+            <div class="part3_mgs_content">
+              <div>
+                注重趣味的EV3机器人课程适合6~11周岁儿童作为机器人编程入门。EV3机器人采用模块化编程，贴合儿童思维从具象到抽象的发展规律，编程方法更易掌握。每节课孩子都能看到自己亲手搭建的机器人动起来，自信心爆棚...
+              </div>
+              <a href="#" class="btn btn-danger pull-right mt10 mr20"><i class="fa fa-plus"></i> MORE</a>
+            </div>
+          </div>
+          <div class="news-content">
+            <div class="part3_img_content mb20">
+              <img src="images/news/news2.jpg" alt="">
+            </div>
+            <div class="part3_mgs_content">
+              <div>
+                注重趣味的EV3机器人课程适合6~11周岁儿童作为机器人编程入门。EV3机器人采用模块化编程，贴合儿童思维从具象到抽象的发展规律，编程方法更易掌握。每节课孩子都能看到自己亲手搭建的机器人动起来，自信心爆棚...
+              </div>
+              <a href="#" class="btn btn-danger pull-right mt10 mr20"><i class="fa fa-plus"></i> MORE</a>
+            </div>
+          </div>
+          <div class="news-content">
+            <div class="part3_img_content mb20">
+              <img src="images/news/news3.jpg" alt="">
+            </div>
+            <div class="part3_mgs_content">
+              <div>
+                注重趣味的EV3机器人课程适合6~11周岁儿童作为机器人编程入门。EV3机器人采用模块化编程，贴合儿童思维从具象到抽象的发展规律，编程方法更易掌握。每节课孩子都能看到自己亲手搭建的机器人动起来，自信心爆棚...
+              </div>
+              <a href="#" class="btn btn-danger pull-right mt10 mr20"><i class="fa fa-plus"></i> MORE</a>
+            </div>
+          </div>
+          <div class="news-content">
+            <div class="part3_img_content mb20">
+              <img src="images/news/news4.jpg" alt="">
+            </div>
+            <div class="part3_mgs_content">
+              <div>
+                注重趣味的EV3机器人课程适合6~11周岁儿童作为机器人编程入门。EV3机器人采用模块化编程，贴合儿童思维从具象到抽象的发展规律，编程方法更易掌握。每节课孩子都能看到自己亲手搭建的机器人动起来，自信心爆棚...
+              </div>
+              <a href="#" class="btn btn-danger pull-right mt10 mr20"><i class="fa fa-plus"></i> MORE</a>
+            </div>
+          </div>
         </div>
       </div>
       </div>
@@ -272,6 +318,14 @@
       if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
         new WOW().init();
       };
+			window.onresize = function(){
+				var $imgWidth = $('.banner').width();
+				var $imgHeight=($imgWidth*688/1920).toFixed(0);
+				var $imgWidth = $('.banner').width();
+				var $imgHeight=($imgWidth*688/1920).toFixed(0);
+				$('#slider a img').css({'width':$imgWidth+'px','height':$imgHeight+'px'});
+				$('#slider').css({'width':$imgWidth+'px','height':$imgHeight+'px'});
+			}
       $(function(){
         $('#slider').nivoSlider(
           {
@@ -283,9 +337,10 @@
             directionNavHide: true,
           }
         );
-        var $imgWidth = $('.banner').width();
-        console.log($imgWidth);
-        $('#slider a img').css({'height':$imgWidth});
+				var $imgWidth = $('.banner').width();
+				var $imgHeight=($imgWidth*688/1920).toFixed(0);
+				$('#slider a img').css({'width':$imgWidth+'px','height':$imgHeight+'px'});
+				$('#slider').css({'width':$imgWidth+'px','height':$imgHeight+'px'});
       })
     </script>
 </body>
