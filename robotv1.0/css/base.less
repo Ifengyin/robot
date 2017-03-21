@@ -46,11 +46,11 @@
 }
 
 .transition (@prop: all, @time: 1s, @delay:0s, @ease: linear) {
-  -webkit-transition: @prop @time @delay @ease;
-  -moz-transition: @prop @time @delay @ease;
-  -o-transition: @prop @time @delay @ease;
-  -ms-transition: @prop @time @delay @ease;
-  transition: @prop @time @delay @ease;
+  -webkit-transition: @prop @ease @time @delay;
+  -moz-transition: @prop @ease @time @delay;
+  -o-transition: @prop @ease @time @delay;
+  -ms-transition: @prop @ease @time @delay;
+  transition: @prop @ease @time @delay;
 }
 
 .gradient (@origin: left, @start: #ffffff, @stop: #000000) {

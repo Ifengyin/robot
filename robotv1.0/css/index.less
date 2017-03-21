@@ -414,7 +414,7 @@
         .part3_img_content{
           overflow: hidden;
           img{
-            .transition(transfrom,300ms,0s,linear);
+            .transition(all,300ms,0s,linear);
             &:hover{
               transform: scale(1.05);
             }
@@ -519,6 +519,94 @@
             }
           }
         }
+      }
+    }
+  }
+  .container-part4{
+    padding-top:30px;
+    .foot_kb{
+      position:relative;
+      width:1000px;
+      margin:30px auto 15px;
+      overflow:hidden;
+      ul{
+        li{
+          float:left;
+          display:block;
+          width:195px;
+          margin-right:50px;
+          height:220px;
+          cursor:pointer;
+          overflow:hidden;
+          b{
+            display:block;
+            width:195px;
+            height:220px;
+            -webkit-transform: translatey(0);
+            -moz-transform: translatey(0);
+            -ms-transform: translatey(0);
+            -o-transform: translatey(0);
+            transform: translatey(0);
+            .transition(all,300ms,0s,linear);
+          }
+          span{
+            display:block;
+            width:195px;
+            height:220px;
+            -webkit-transform: translatey(0);
+            -moz-transform: translatey(0);
+            -ms-transform: translatey(0);
+            -o-transform: translatey(0);
+            transform: translatey(0);
+            .transition(all,300ms,0s,linear);
+          }
+          b.kb_1{
+            background:url(../images/kb.png) no-repeat 0 0;
+          }
+          b.kb_2{
+            background:url(../images/kb.png) no-repeat -195px 0;
+          }
+          b.kb_3{
+            background:url(../images/kb.png) no-repeat -390px 0;
+          }
+          b.kb_4{
+            background:url(../images/kb.png) no-repeat -590px 0;
+          }
+          span.kbg_1{
+            background:url(../images/kb.png) no-repeat 0 -216px;
+          }
+          span.kbg_2{
+            background:url(../images/kb.png) no-repeat -195px -216px;
+          }
+          span.kbg_3{
+            background:url(../images/kb.png) no-repeat -395px -216px;
+          }
+          span.kbg_4{
+            background:url(../images/kb.png) no-repeat -590px -216px;
+          }
+          &:hover{
+            span,b{
+              -webkit-transform: translatey(-220px);
+              -moz-transform: translatey(-220px);
+              -ms-transform: translatey(-220px);
+              -o-transform: translatey(-220px);
+              transform: translatey(-220px);
+            }
+          }
+        }
+      }
+    }
+    .foot_describe{
+      width:1000px;
+      height:30px;
+      margin:10px auto 0;
+      li{
+        float:left;
+        color:#C6A16A;
+        width:195px;
+        text-align:center;
+        font-size:20px;
+        margin-right:55px;
       }
     }
   }

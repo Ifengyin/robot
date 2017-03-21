@@ -276,11 +276,11 @@ body {
   width: 100%;
   text-align: center;
   border-top: 3px solid transparent;
-  -webkit-transition: all 0.4s linear linear;
-  -moz-transition: all 0.4s linear linear;
-  -o-transition: all 0.4s linear linear;
-  -ms-transition: all 0.4s linear linear;
-  transition: all 0.4s linear linear;
+  -webkit-transition: all linear 0.4s linear;
+  -moz-transition: all linear 0.4s linear;
+  -o-transition: all linear 0.4s linear;
+  -ms-transition: all linear 0.4s linear;
+  transition: all linear 0.4s linear;
 }
 .nav .nav-ul > li > a:hover {
   background: #111;
@@ -554,22 +554,22 @@ body {
   top: 0;
   left: 0;
   z-index: 2;
-  -webkit-transition: all 100ms ease-in-out linear;
-  -moz-transition: all 100ms ease-in-out linear;
-  -o-transition: all 100ms ease-in-out linear;
-  -ms-transition: all 100ms ease-in-out linear;
-  transition: all 100ms ease-in-out linear;
+  -webkit-transition: all linear 100ms ease-in-out;
+  -moz-transition: all linear 100ms ease-in-out;
+  -o-transition: all linear 100ms ease-in-out;
+  -ms-transition: all linear 100ms ease-in-out;
+  transition: all linear 100ms ease-in-out;
 }
 .content-container .container-part2 .part2_container .item-img .item-cover div {
   width: 100%;
   margin: 60px auto 30px;
   text-align: center;
   opacity: 0;
-  -webkit-transition: all 300ms 100ms linear;
-  -moz-transition: all 300ms 100ms linear;
-  -o-transition: all 300ms 100ms linear;
-  -ms-transition: all 300ms 100ms linear;
-  transition: all 300ms 100ms linear;
+  -webkit-transition: all linear 300ms 100ms;
+  -moz-transition: all linear 300ms 100ms;
+  -o-transition: all linear 300ms 100ms;
+  -ms-transition: all linear 300ms 100ms;
+  transition: all linear 300ms 100ms;
 }
 .content-container .container-part2 .part2_container .item-img .item-cover div a {
   font-size: 26px;
@@ -582,21 +582,21 @@ body {
   opacity: 0;
   width: 100%;
   text-align: center;
-  -webkit-transition: all 200ms 100ms linear;
-  -moz-transition: all 200ms 100ms linear;
-  -o-transition: all 200ms 100ms linear;
-  -ms-transition: all 200ms 100ms linear;
-  transition: all 200ms 100ms linear;
+  -webkit-transition: all linear 200ms 100ms;
+  -moz-transition: all linear 200ms 100ms;
+  -o-transition: all linear 200ms 100ms;
+  -ms-transition: all linear 200ms 100ms;
+  transition: all linear 200ms 100ms;
 }
 .content-container .container-part2 .part2_container .item-img .item-cover p.line b {
   display: block;
   margin: 0 auto;
   width: 0px;
-  -webkit-transition: all 200ms 200ms ease-out;
-  -moz-transition: all 200ms 200ms ease-out;
-  -o-transition: all 200ms 200ms ease-out;
-  -ms-transition: all 200ms 200ms ease-out;
-  transition: all 200ms 200ms ease-out;
+  -webkit-transition: all ease-out 200ms 200ms;
+  -moz-transition: all ease-out 200ms 200ms;
+  -o-transition: all ease-out 200ms 200ms;
+  -ms-transition: all ease-out 200ms 200ms;
+  transition: all ease-out 200ms 200ms;
   border: 1px solid #fff;
 }
 .content-container .container-part2 .part2_container .item-img .item-cover p.center-line {
@@ -604,11 +604,11 @@ body {
   display: block;
   margin: 20px 0;
   width: 100%;
-  -webkit-transition: all 200ms 100ms linear;
-  -moz-transition: all 200ms 100ms linear;
-  -o-transition: all 200ms 100ms linear;
-  -ms-transition: all 200ms 100ms linear;
-  transition: all 200ms 100ms linear;
+  -webkit-transition: all linear 200ms 100ms;
+  -moz-transition: all linear 200ms 100ms;
+  -o-transition: all linear 200ms 100ms;
+  -ms-transition: all linear 200ms 100ms;
+  transition: all linear 200ms 100ms;
 }
 .content-container .container-part2 .part2_container .item-img .item-cover p.center-line a {
   color: #fff;
@@ -705,11 +705,11 @@ body {
   overflow: hidden;
 }
 .content-container .container-part3 .part3_container .news-content .part3_img_content img {
-  -webkit-transition: transfrom 300ms 0s linear;
-  -moz-transition: transfrom 300ms 0s linear;
-  -o-transition: transfrom 300ms 0s linear;
-  -ms-transition: transfrom 300ms 0s linear;
-  transition: transfrom 300ms 0s linear;
+  -webkit-transition: all linear 300ms 0s;
+  -moz-transition: all linear 300ms 0s;
+  -o-transition: all linear 300ms 0s;
+  -ms-transition: all linear 300ms 0s;
+  transition: all linear 300ms 0s;
 }
 .content-container .container-part3 .part3_container .news-content .part3_img_content img:hover {
   transform: scale(1.05);
@@ -810,4 +810,97 @@ body {
 }
 .content-container .container-part3 .part3_news .news_part_content .news_part #slider1 #slider1_index li:hover {
   background: orange;
+}
+.content-container .container-part4 {
+  padding-top: 30px;
+}
+.content-container .container-part4 .foot_kb {
+  position: relative;
+  width: 1000px;
+  margin: 30px auto 15px;
+  overflow: hidden;
+}
+.content-container .container-part4 .foot_kb ul li {
+  float: left;
+  display: block;
+  width: 195px;
+  margin-right: 50px;
+  height: 220px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.content-container .container-part4 .foot_kb ul li b {
+  display: block;
+  width: 195px;
+  height: 220px;
+  -webkit-transform: translatey(0);
+  -moz-transform: translatey(0);
+  -ms-transform: translatey(0);
+  -o-transform: translatey(0);
+  transform: translatey(0);
+  -webkit-transition: all linear 300ms 0s;
+  -moz-transition: all linear 300ms 0s;
+  -o-transition: all linear 300ms 0s;
+  -ms-transition: all linear 300ms 0s;
+  transition: all linear 300ms 0s;
+}
+.content-container .container-part4 .foot_kb ul li span {
+  display: block;
+  width: 195px;
+  height: 220px;
+  -webkit-transform: translatey(0);
+  -moz-transform: translatey(0);
+  -ms-transform: translatey(0);
+  -o-transform: translatey(0);
+  transform: translatey(0);
+  -webkit-transition: all linear 300ms 0s;
+  -moz-transition: all linear 300ms 0s;
+  -o-transition: all linear 300ms 0s;
+  -ms-transition: all linear 300ms 0s;
+  transition: all linear 300ms 0s;
+}
+.content-container .container-part4 .foot_kb ul li b.kb_1 {
+  background: url(../images/kb.png) no-repeat 0 0;
+}
+.content-container .container-part4 .foot_kb ul li b.kb_2 {
+  background: url(../images/kb.png) no-repeat -195px 0;
+}
+.content-container .container-part4 .foot_kb ul li b.kb_3 {
+  background: url(../images/kb.png) no-repeat -390px 0;
+}
+.content-container .container-part4 .foot_kb ul li b.kb_4 {
+  background: url(../images/kb.png) no-repeat -590px 0;
+}
+.content-container .container-part4 .foot_kb ul li span.kbg_1 {
+  background: url(../images/kb.png) no-repeat 0 -216px;
+}
+.content-container .container-part4 .foot_kb ul li span.kbg_2 {
+  background: url(../images/kb.png) no-repeat -195px -216px;
+}
+.content-container .container-part4 .foot_kb ul li span.kbg_3 {
+  background: url(../images/kb.png) no-repeat -395px -216px;
+}
+.content-container .container-part4 .foot_kb ul li span.kbg_4 {
+  background: url(../images/kb.png) no-repeat -590px -216px;
+}
+.content-container .container-part4 .foot_kb ul li:hover span,
+.content-container .container-part4 .foot_kb ul li:hover b {
+  -webkit-transform: translatey(-220px);
+  -moz-transform: translatey(-220px);
+  -ms-transform: translatey(-220px);
+  -o-transform: translatey(-220px);
+  transform: translatey(-220px);
+}
+.content-container .container-part4 .foot_describe {
+  width: 1000px;
+  height: 30px;
+  margin: 10px auto 0;
+}
+.content-container .container-part4 .foot_describe li {
+  float: left;
+  color: #C6A16A;
+  width: 195px;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 55px;
 }
