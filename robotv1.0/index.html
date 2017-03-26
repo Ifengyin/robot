@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/plugs/nivo-slider.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=kyodzeRsLWSyaO51lGHTeyNXyUE2UmrE"></script>
 </head>
 <body>
     <div class="header">
@@ -24,7 +25,7 @@
         <ul class="nav-ul">
             <li><a href="#" class="actived">首页</a></li>
             <li onmouseenter="navContentShow(this)" onmouseleave="navContentHide(this)">
-                <a href="#" data-nav="1">在线课程</a>
+                <a href="./pages/class.html" data-nav="1">在线课程</a>
                 <div class="nav-show-content" style="left:-200px;">
                   <div class="nav-show-left">
                     <h3>在线课程</h3>
@@ -91,7 +92,6 @@
                   </div>
                 </div>
             </li>
-            <li><a href="#">关于我们</a></li>
         </ul>
     </div>
     <div class="banner">
@@ -345,6 +345,9 @@
           <h5>We use professional technology, human services, online tutoring, the line opposite the lecture,Teach students in accordance with their aptitude, </h5>
           <h5>Scientific Course System,tailored courses for different children,so that children master the robot technology</h5>
         </div>
+        <div class="part4-content">
+          <img src="images/aboutus.png" alt="">
+        </div>
         <div class="foot_kb">
           <ul>
             <li>
@@ -380,6 +383,60 @@
           </li>
         </ul>
       </div>
+      <div class="container-part5 ">
+        <div class="part_title wow flipInX">
+          <h3><span>I - Robot</span><span>联系我们 Content Us</span></h3>
+        </div>
+        <div class="map" id="allmap"></div>
+        <div class="map-msg wow fadeInLeft">
+          <div class="map-msg-group">
+            <p><i class="fa fa-location-arrow"></i>地址</p>
+            <p>湖南省邵阳市邵阳学院七里坪校区</p>
+          </div>
+          <div class="map-msg-group">
+            <p><i class="fa fa-envelope-o"></i>邮箱</p>
+            <p>18397642848@163.com</p>
+          </div>
+          <div class="map-msg-group">
+            <p><i class="fa fa-phone"></i>联系方式</p>
+            <p>010-8888888</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-part1">
+        <div class="footer-part1-left pull-left">
+          <div class="footer-right-img pull-right">
+            <img src="images/mmqrcode.png" alt="">
+          </div>
+          <div class="footer-right pull-right">
+            <p> 爱博特  官方微信</p>
+            <p> 爱博特 微信号：iRobot</p>
+            <p>THE OFFOCAL MICRO MESSARG</p>
+          </div>
+        </div>
+        <div class="footer-part1-left pull-left">
+          <div class="footer-right-img pull-left">
+            <img src="images/mmqrcode.png" alt="">
+          </div>
+          <div class="footer-right pull-left" style="text-align:left;margin-left:20px;">
+            <p> 爱博特  官方qq</p>
+            <p> 爱博特 qq号：290435750</p>
+            <p>THE OFFOCAL QQ </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="footer-part2">
+        <p>
+          <a href="#">爱博特机器人</a>
+          <a href="#">爱博特机器人教育</a>
+          <a href="#">爱博特校园机器人</a>
+          &nbsp;&nbsp;
+          <span>Copyright © 2011 HDPHOTO.CN All rights reserved.Tel:+86 028 85224663</span>
+        </p>
+      </div>
     </div>
     <script src="js/plugs/jquery-1.11.3.js"></script>
     <script src="js/plugs/bootstrap.js"></script>
@@ -406,7 +463,22 @@
         {"i":2,"img":"images/banner/banner_03.jpg"},
         {"i":3,"img":"images/banner/banner_04.jpg"},
         {"i":4,"img":"images/banner/banner_05.gif"},
-      ]);
+      ])
+
+      //百度地图部分
+      var map = new BMap.Map("allmap");    // 创建Map实例
+      map.centerAndZoom(new BMap.Point(111.4463730000,27.2001230000), 17);  // 初始化地图,设置中心点坐标和地图级别
+      map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+      map.setCurrentCity("邵阳市");          // 设置地图显示的城市 此项是必须设置的
+      map.enableScrollWheelZoom(true);
+      var point = new BMap.Point(111.4463730000,27.2001230000);
+      map.centerAndZoom(point, 17);
+      var marker = new BMap.Marker(point);  // 创建标注
+      map.addOverlay(marker);              // 将标注添加到地图中
+      var label = new BMap.Label("爱博特教育中心总部",{offset:new BMap.Size(20,-10)});
+      marker.setLabel(label);
+      //百度地图部分
+
       $(function(){
         $('#slider').nivoSlider(
           {
