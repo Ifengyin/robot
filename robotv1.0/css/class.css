@@ -1,0 +1,500 @@
+html {
+  font-size: 100px;
+}
+body {
+  line-height: 1.4;
+  color: #333;
+  font-family: arial;
+  font-size: 12px;
+  font-size: .12rem;
+  background: white;
+}
+* {
+  box-sizing: border-box;
+}
+input,
+textarea,
+select {
+  font-size: 12px;
+  font-size: 100%;
+  font-family: arial;
+  font-family: inherit;
+}
+body,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ol,
+form,
+textarea,
+th,
+td,
+select {
+  margin: 0;
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+form {
+  margin: 0;
+}
+h4,
+h5,
+h6 {
+  font-size: .1em;
+}
+ul,
+ol {
+  padding-left: 0;
+  list-style-type: none;
+}
+/*image with no-border*/
+a img {
+  border: 0;
+}
+img {
+  border: 0;
+}
+textarea {
+  resize: none;
+  overflow: auto;
+}
+.clearfix {
+  zoom: 1;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+.clearfix:after {
+  content: ".";
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  display: block;
+  clear: both;
+}
+.before {
+  content: "";
+  display: block;
+}
+.after {
+  content: "";
+  display: block;
+}
+.lf {
+  float: left;
+}
+.rt {
+  float: right;
+}
+.tl {
+  text-align: left;
+}
+.tc {
+  text-align: center;
+}
+.tr {
+  text-algin: right;
+}
+/*overflow: hidden和white-space: nowrap都是必须的否则不会显示省略号；-o-text-overflow: ellipsis针对Opera；而宽度的设定主要是针对IE6；
+*/
+.ellipse {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+html,
+body {
+  min-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+/*相关尺寸*/
+.mr5 {
+  margin-right: 0.05rem;
+}
+.ml5 {
+  margin-left: 0.05rem;
+}
+.mt5 {
+  margin-top: 0.05rem;
+}
+.mb5 {
+  margin-bottom: 0.05rem;
+}
+.mr10 {
+  margin-right: 0.1rem;
+}
+.ml10 {
+  margin-left: 0.1rem;
+}
+.mt10 {
+  margin-top: 0.1rem;
+}
+.mb10 {
+  margin-bottom: 0.1rem;
+}
+.mr20 {
+  margin-right: 0.2rem;
+}
+.ml20 {
+  margin-left: 0.2rem;
+}
+.mt20 {
+  margin-top: 0.2rem;
+}
+.mb20 {
+  margin-bottom: 0.2rem;
+}
+.mr30 {
+  margin-right: 0.3rem;
+}
+.ml30 {
+  margin-left: 0.3rem;
+}
+.mt30 {
+  margin-top: 0.3rem;
+}
+.mb30 {
+  margin-bottom: 0.3rem;
+}
+.font12 {
+  font-size: 0.12rem;
+}
+.font14 {
+  font-size: 0.14rem;
+}
+.font15 {
+  font-size: 0.15rem;
+}
+.font16 {
+  font-size: 0.16rem;
+}
+.block {
+  display: block;
+}
+.inline {
+  display: inline-block;
+}
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.baseline {
+  vertical-align: baseline;
+}
+.middle {
+  vertical-align: middle;
+}
+.top {
+  vertical-align: top;
+}
+.bottom {
+  vertical-align: bottom;
+}
+body {
+  background: url(../images/class-bg.jpg) no-repeat;
+  background-size: cover;
+}
+.nav {
+  width: 100%;
+  height: 70px;
+  background: #000;
+}
+.nav .nav-contianer {
+  width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+.nav .nav-contianer .a-logo {
+  width: 200px;
+  float: left;
+}
+.nav .nav-contianer .nav-ul {
+  width: 750px;
+  float: left;
+  height: 70px;
+  line-height: 70px;
+}
+.nav .nav-contianer .nav-ul li {
+  width: 150px;
+  float: left;
+  height: 70px;
+}
+.nav .nav-contianer .nav-ul li a {
+  text-align: center;
+  width: 150px;
+  height: 70px;
+  line-height: 70px;
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  border-top: 2px solid transparent;
+  -webkit-transition: all linear 300ms 0s;
+  -moz-transition: all linear 300ms 0s;
+  -o-transition: all linear 300ms 0s;
+  -ms-transition: all linear 300ms 0s;
+  transition: all linear 300ms 0s;
+}
+.nav .nav-contianer .nav-ul li a:hover {
+  border-color: #eb8932;
+  color: #eb8932;
+}
+.nav .nav-contianer .nav-ul li .active {
+  border-color: #eb8932;
+  color: #eb8932;
+}
+.nav .nav-contianer .lend-div {
+  width: 250px;
+  height: 70px;
+  line-height: 70px;
+}
+.nav .nav-contianer .lend-div a {
+  float: left;
+  height: 70px;
+  line-height: 70px;
+  color: #dfdfdf;
+  text-align: center;
+}
+.nav .nav-contianer .lend-div a:hover {
+  text-decoration: underline;
+}
+.nav .nav-contianer .lend-div a:first-child {
+  width: 150px;
+}
+.nav .nav-contianer .lend-div a:last-child {
+  width: 100px;
+  text-align: left;
+}
+.banner {
+  width: 100%;
+}
+.banner .class-banner {
+  width: 1200px;
+  padding: 30px 0;
+  height: 300px;
+  margin: 0 auto;
+}
+.banner .class-banner .class-banner-group {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+.banner .class-banner .class-banner-group span {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+}
+.banner .class-banner .class-banner-group .class-title {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  width: 120px;
+  text-align: center;
+}
+.banner .class-banner .class-banner-group .class-red {
+  width: 50px;
+}
+.banner .class-banner .class-banner-group .class-red a {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  background: #9d261d;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.banner .class-banner .class-banner-group .class-red a:hover {
+  text-decoration: underline;
+}
+.banner .class-banner .class-banner-group .class-content {
+  width: 1000px;
+  margin-left: 20px;
+  padding-left: 10px;
+  height: 50px;
+  line-height: 50px;
+}
+.banner .class-banner .class-banner-group .class-content a {
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #333;
+  display: inline-block;
+  padding: 0 10px;
+}
+.banner .class-banner .class-banner-group .class-content a:hover {
+  text-decoration: underline;
+}
+.line {
+  width: 90%;
+  margin: 0 auto 40px;
+  height: 0;
+  border-top: 2px solid #eb8932;
+}
+.class-container {
+  width: 100%;
+}
+.class-container .container-title {
+  width: 1200px;
+  margin: 20px auto;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.class-container .container-title .caret {
+  position: absolute;
+  left: 65px;
+  bottom: 0;
+}
+.class-container .container-body {
+  width: 1200px;
+  height: 1000px;
+  margin: 20px auto 0;
+}
+.class-container .container-body .class-group {
+  width: 220px;
+  height: 240px;
+  float: left;
+  margin-right: 18px;
+  padding-bottom: 20px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 4px 0px rgba(7, 17, 27, 0.1) 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 4px 0px rgba(7, 17, 27, 0.1) 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 4px 0px rgba(7, 17, 27, 0.1) 3px 5px rgba(0, 0, 0, 0.5);
+}
+.class-container .container-body .class-group .class-detail-title {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  overflow: hidden;
+  background-image: linear-gradient(270deg, rgba(255, 150, 0, 0.7), #ff9600);
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+.class-container .container-body .class-group .class-detail-title .bg-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.class-container .container-body .class-group .class-detail-title span {
+  display: inline-block;
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+}
+.class-container .container-body .class-group .class-detail-title span a {
+  width: 100%;
+  height: 48px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 20px;
+}
+.class-container .container-body .class-group .class-detail-title span a:hover {
+  text-decoration: underline;
+}
+.class-container .container-body .class-group .class-detail {
+  width: 100%;
+  height: 172px;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px 10px;
+}
+.class-container .container-body .class-group .class-detail h5 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.class-container .container-body .class-group .class-detail .class-detail-ds {
+  margin: 15px 0;
+  color: #999;
+  height: 64px;
+}
+.class-container .container-body .class-group .class-detail-tj {
+  padding-left: 20px;
+}
+.class-container .class-pagenation {
+  width: 500px;
+  margin: 0 auto;
+  height: 50px;
+  border: 1px solid #000;
+}
+.footer {
+  margin-top: 50px;
+  width: 100%;
+  height: 200px;
+  background: #000000;
+  padding-top: 10px;
+}
+.footer .footer-part1 {
+  width: 1200px;
+  height: 150px;
+  margin: 20px auto 0;
+}
+.footer .footer-part1 .footer-part1-left {
+  width: 600px;
+  height: 120px;
+  padding-top: 10px;
+}
+.footer .footer-part1 .footer-part1-left .footer-right {
+  text-align: right;
+  display: inline-block;
+  padding-top: 18px;
+  font-size: 16px;
+  color: #eb8932;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.footer .footer-part1 .footer-part1-left .footer-right-img {
+  display: inline-block;
+  margin: 0 10px;
+}
+.footer .footer-part2 {
+  width: 1200px;
+  margin: -15px auto 0;
+  text-align: center;
+}
+.footer .footer-part2 span {
+  color: #fff;
+}
